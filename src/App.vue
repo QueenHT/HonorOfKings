@@ -10,7 +10,15 @@ export default {
 }
 </script>
 
-<style>
+
+<style lang="less">
+// @import "~vux/src/styles/reset.less";
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,4 +27,6 @@ export default {
   height: 100%;
 
 }
+}
+
 </style>

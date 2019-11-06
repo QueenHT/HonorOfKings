@@ -36,42 +36,42 @@ export default {
       showbar: true,
       title: "",
       actived: false,
-      index_selseted: 0,
+      index_selseted:2,
       tabbarArray: [
         {
           active: true,
           label: "龙虎榜",
           link: "/winnerslist",
           icon: require("../assets/image/main/lhb.png"),
-          icon_active: require("../assets/image/main/lhb.png")
+          icon_active: require("../assets/image/main/lhb-active.png")
         },
         {
           active: false,
           label: "执法概况",
           link: "/treatmentsituation",
-          icon: require("../assets/image/main/lhb.png"),
-          icon_active: require("../assets/image/main/lhb.png")
+          icon: require("../assets/image/main/zfgk.png"),
+          icon_active: require("../assets/image/main/zfgk-active.png")
         },
         {
           active: false,
           label: "系统首页",
           link: "/homepage",
-          icon: require("../assets/image/main/lhb.png"),
-          icon_active: require("../assets/image/main/lhb.png")
+          icon: require("../assets/image/main/xtsy.png"),
+          icon_active: require("../assets/image/main/xtsy-active.png")
         },
         {
           active: false,
           label: "执法校正",
           link: "/lawenforcementcorrection",
-          icon: require("../assets/image/main/lhb.png"),
-          icon_active: require("../assets/image/main/lhb.png")
+          icon: require("../assets/image/main/zfjz.png"),
+          icon_active: require("../assets/image/main/zfjz-active.png")
         },
         {
           active: false,
           label: "学习强警",
           link: "/stronglearning",
-          icon: require("../assets/image/main/lhb.png"),
-          icon_active: require("../assets/image/main/lhb.png")
+          icon: require("../assets/image/main/xxqj.png"),
+          icon_active: require("../assets/image/main/xxqj-active.png")
         }
       ]
     };
